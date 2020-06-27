@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <ImageView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/g_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?attr/gIcon"/>
+    <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/mic_icon" android:background="?android:attr/selectableItemBackgroundBorderless" android:clickable="true" android:layout_width="48dp" android:layout_height="match_parent" android:layout_marginTop="-6dp" android:layout_marginBottom="-6dp" android:src="?attr/micIcon" android:scaleType="center" android:contentDescription="@string/label_voice_search"/>
+</merge>

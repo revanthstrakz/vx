@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/icon" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="8dp" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" android:scaleType="fitCenter"/>
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp">
+        <TextView android:ellipsize="marquee" android:id="@+id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:minLines="1"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:ellipsize="marquee" android:id="@+id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:minLines="1"/>
+    </LinearLayout>
+</LinearLayout>

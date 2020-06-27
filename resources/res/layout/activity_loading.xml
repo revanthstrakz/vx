@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_gravity="bottom" android:background="#f8f8f8" android:layout_width="match_parent" android:layout_height="128dp">
+        <p013io.virtualapp.widgets.EatBeansView android:id="@+id/loading_anim" android:layout_width="match_parent" android:layout_height="30dp"/>
+        <ImageView android:id="@+id/app_icon" android:layout_width="64dp" android:layout_height="64dp" android:layout_marginLeft="64dp" android:layout_centerVertical="true" android:layout_marginStart="64dp"/>
+        <TextView android:textColor="@android:color/black" android:gravity="center" android:id="@+id/app_name" android:paddingBottom="25dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/preparing" android:layout_toRightOf="@+id/app_icon" android:layout_alignBottom="@+id/app_icon" android:layout_marginStart="20dp" android:layout_toEndOf="@+id/app_icon"/>
+    </RelativeLayout>
+</FrameLayout>

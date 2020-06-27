@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <TextView android:id="@+id/fast_scroller_popup" android:layout_marginTop="-5dp" android:layout_alignTop="@+id/apps_list_view" android:layout_marginEnd="-45dp" android:layout_alignParentEnd="true" style="@style/FastScrollerPopup"/>
+    <com.android.launcher3.allapps.LandscapeFastScroller android:id="@+id/fast_scroller" android:layout_width="48dp" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:layout_alignParentTop="@+id/apps_list_view" android:layout_alignParentBottom="true" android:layout_marginEnd="-88dp" android:layout_alignParentEnd="true" app:canThumbDetach="true"/>
+</merge>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:fitsSystemWindows="true" android:clipToPadding="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/content_toolbar"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <p013io.virtualapp.widgets.fittext.FitTextView android:gravity="center_vertical" android:id="@+id/address" android:layout_width="match_parent" android:layout_height="@dimen/line_height" android:layout_marginLeft="6dp" android:layout_marginRight="6dp" android:maxLines="2" app:ftMaxTextSize="20sp" app:ftMinTextSize="10sp"/>
+            <com.tencent.tencentmap.mapsdk.map.MapView android:id="@+id/map" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

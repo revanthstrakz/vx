@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_default_height_material">48dp</dimen>
+    <dimen name="abc_action_bar_progress_bar_size">32dp</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12dp</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14dp</dimen>
+    <dimen name="dynamic_grid_cell_layout_bottom_padding">5.5dp</dimen>
+    <dimen name="dynamic_grid_cell_layout_padding">0dp</dimen>
+    <dimen name="dynamic_grid_hotseat_land_left_nav_bar_gutter_width">50dp</dimen>
+    <dimen name="dynamic_grid_hotseat_land_left_nav_bar_left_padding">44dp</dimen>
+    <dimen name="dynamic_grid_hotseat_land_left_nav_bar_right_padding">18dp</dimen>
+    <dimen name="dynamic_grid_hotseat_land_right_nav_bar_gutter_width">56dp</dimen>
+    <dimen name="dynamic_grid_hotseat_land_right_nav_bar_left_padding">32dp</dimen>
+    <dimen name="dynamic_grid_hotseat_land_right_nav_bar_right_padding">6dp</dimen>
+    <dimen name="dynamic_grid_hotseat_size">0dp</dimen>
+    <dimen name="dynamic_grid_icon_drawable_padding">4dp</dimen>
+    <dimen name="dynamic_grid_min_page_indicator_size">48dp</dimen>
+    <dimen name="dynamic_grid_overview_bar_item_width">120dp</dimen>
+    <dimen name="dynamic_grid_page_indicator_land_left_nav_bar_gutter_width">114dp</dimen>
+    <dimen name="dynamic_grid_page_indicator_land_right_nav_bar_gutter_width">91dp</dimen>
+    <dimen name="fastscroll_popup_height">48dp</dimen>
+    <dimen name="fastscroll_popup_padding">10dp</dimen>
+    <dimen name="fastscroll_popup_text_size">24dp</dimen>
+    <dimen name="fastscroll_popup_width">58dp</dimen>
+    <dimen name="folder_preview_padding">2dp</dimen>
+</resources>

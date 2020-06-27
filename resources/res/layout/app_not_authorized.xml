@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/description" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Change not allowed" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+    <View android:background="?android:attr/dividerHorizontal" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <LinearLayout android:id="@+id/button_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:measureWithLargestChild="true" style="?android:attr/buttonBarStyle">
+        <Button android:id="@android:id/button1" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@android:string/yes" android:layout_weight="1" android:onClick="onCancelButtonClicked" style="?android:attr/buttonBarButtonStyle"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:id="@+id/item_app_checked" android:layout_width="23dp" android:layout_height="23dp" android:src="@drawable/ic_no_check"/>
+    <p013io.virtualapp.widgets.LabelView android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:id="@+id/item_app_clone_count" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" app:lv_background_color="#f6ce59" app:lv_fill_triangle="true" app:lv_gravity="83" app:lv_text="2" app:lv_text_all_caps="false" app:lv_text_color="@android:color/white" app:lv_text_size="12sp"/>
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:orientation="horizontal" android:paddingLeft="24dp" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/item_app_icon" android:layout_width="32dp" android:layout_height="32dp"/>
+        <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:orientation="vertical" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <p013io.virtualapp.widgets.MarqueeTextView android:textSize="14sp" android:textColor="@color/desktopColorB" android:ellipsize="marquee" android:gravity="center" android:id="@+id/item_app_name" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever"/>
+            <p013io.virtualapp.widgets.MarqueeTextView android:textSize="12sp" android:ellipsize="marquee" android:gravity="center" android:id="@+id/item_app_summary" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

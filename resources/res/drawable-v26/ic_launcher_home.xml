@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <background>
+        <bitmap android:src="@mipmap/ic_launcher_home_background"/>
+    </background>
+    <foreground>
+        <bitmap android:src="@mipmap/ic_launcher_home_foreground"/>
+    </foreground>
+</adaptive-icon>

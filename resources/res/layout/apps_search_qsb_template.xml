@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/qsb_background_container" android:padding="@dimen/qsb_shadow_margin" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+        <ImageView android:id="@+id/qsb_background_1" android:layout_width="wrap_content" android:layout_height="match_parent" android:scaleType="matrix"/>
+        <ImageView android:id="@+id/qsb_background_2" android:layout_width="0dp" android:layout_height="match_parent" android:scaleType="fitXY" android:layout_weight="1"/>
+        <ImageView android:id="@+id/qsb_background_3" android:layout_width="wrap_content" android:layout_height="match_parent" android:scaleType="matrix" android:scaleX="-1"/>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/qsb_icon_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/g_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_super_g_color"/>
+        <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/mic_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_mic_color"/>
+    </FrameLayout>
+</FrameLayout>

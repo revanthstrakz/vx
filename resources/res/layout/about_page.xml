@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" style="@style/about_About.wrapper">
+    <LinearLayout style="@style/about_About.wrapper">
+        <LinearLayout style="@style/about_sub_wrapper">
+            <ImageView android:id="@+id/image" style="@style/about_image"/>
+            <TextView android:id="@+id/description" style="@style/about_description"/>
+        </LinearLayout>
+        <View style="@style/about_separator"/>
+        <LinearLayout android:id="@+id/about_providers" android:padding="0dp" style="@style/about_sub_wrapper"/>
+    </LinearLayout>
+</ScrollView>

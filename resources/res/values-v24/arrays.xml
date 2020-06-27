@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="theme_override_names">
+        <item>@string/theme_automatic</item>
+        <item>@string/theme_default</item>
+        <item>@string/theme_light</item>
+        <item>@string/theme_dark</item>
+        <item>@string/theme_transparent</item>
+    </array>
+    <array name="theme_override_values">
+        <item />
+        <item>@null</item>
+        <item>1</item>
+        <item>2</item>
+        <item>256</item>
+    </array>
+</resources>

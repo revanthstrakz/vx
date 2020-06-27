@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:theme="@style/LauncherTheme" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/click_feedback_wrapper" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:background="@drawable/qsb_icon_click_feedback" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <ImageView android:id="@android:id/icon" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:tint="@color/qsb_icon_tint"/>
+    <TextView android:id="@android:id/title" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/BaseIcon"/>
+</FrameLayout>

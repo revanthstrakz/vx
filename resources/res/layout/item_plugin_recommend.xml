@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="left|center_vertical|center_horizontal|center|start" android:orientation="vertical" android:paddingLeft="18dp" android:paddingTop="14dp" android:paddingBottom="14dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="16sp" android:textColor="@color/desktopColorB" android:ellipsize="marquee" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/item_plugin_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4dp"/>
+    <TextView android:textSize="12sp" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/item_plugin_summary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/item_plugin_name"/>
+</RelativeLayout>

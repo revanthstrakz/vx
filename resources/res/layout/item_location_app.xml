@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="?attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="60dp">
+        <ImageView android:id="@+id/item_app_icon" android:layout_width="60dp" android:layout_height="60dp"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/item_app_name" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="20dp" android:layout_weight="1" android:layout_marginStart="20dp" style="@style/TextAppearance.AppCompat.Body1"/>
+            <TextView android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/item_location" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="20dp" android:layout_weight="1" android:layout_marginStart="20dp" style="@style/TextAppearance.AppCompat.Caption"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

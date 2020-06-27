@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="?attr/selectableItemBackground" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="54dp">
+        <ImageView android:id="@+id/item_share_icon" android:layout_width="30dp" android:layout_height="30dp"/>
+        <TextView android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/item_share_name" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginStart="10dp"/>
+    </LinearLayout>
+</RelativeLayout>

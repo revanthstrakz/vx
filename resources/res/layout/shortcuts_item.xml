@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.shortcuts.ShortcutsItemView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/shortcuts_view" android:layout_width="@dimen/bg_popup_item_width" android:layout_height="wrap_content" android:elevation="@dimen/deep_shortcuts_elevation">
+    <LinearLayout android:orientation="vertical" android:id="@+id/content" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/shortcuts" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+</com.android.launcher3.shortcuts.ShortcutsItemView>

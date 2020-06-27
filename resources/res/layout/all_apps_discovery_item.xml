@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.discovery.AppDiscoveryItemView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="?android:attr/selectableItemBackground" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/image" android:padding="8dp" android:focusable="false" android:layout_width="56dp" android:layout_height="56dp" android:scaleType="fitCenter" android:importantForAccessibility="no"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toRightOf="@+id/image" android:layout_centerVertical="true">
+        <TextView android:textSize="15sp" android:textColor="?android:attr/textColorSecondary" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14sp" android:textColor="?android:attr/textColorSecondary" android:layout_gravity="center_vertical" android:id="@+id/rating" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false"/>
+            <com.android.launcher3.discovery.RatingView android:layout_gravity="center_vertical" android:id="@+id/rating_view" android:layout_width="70dp" android:layout_height="16dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+            <TextView android:textSize="14sp" android:textColor="?android:attr/textColorHint" android:layout_gravity="center_vertical" android:id="@+id/review_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp"/>
+            <Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+            <TextView android:textSize="14sp" android:textColor="?android:attr/textColorHint" android:id="@+id/price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12dp" android:textAllCaps="true"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:paddingLeft="@dimen/dynamic_grid_edge_margin" android:paddingRight="@dimen/dynamic_grid_edge_margin" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/all_apps_divider" android:scaleType="fitXY" android:layout_alignParentBottom="true" android:importantForAccessibility="no"/>
+</com.android.launcher3.discovery.AppDiscoveryItemView>
