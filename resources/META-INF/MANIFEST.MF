@@ -3,7 +3,7 @@ Built-By: Generated-by-ADT
 Created-By: Android Gradle 3.2.1
 
 Name: AndroidManifest.xml
-SHA-256-Digest: 8gQE1F3bsna8M5PMWB6/drjJTYd0jGEgnFugy4sqsBs=
+SHA-256-Digest: TRJfp7oNQly4Tek1s2X0QMCzMUCWLDXiRnGkhmFfNRA=
 
 Name: META-INF/android.arch.core_runtime.version
 SHA-256-Digest: FXXhr0qV8S9wtO5qatzoFglT2T6hfcJhG5CIPMw607g=
@@ -72,7 +72,7 @@ Name: assets/license.html
 SHA-256-Digest: Pbg0+/U1DHtZkPdwtjjLBIsyZxgoyEfpE9K4RoP69kE=
 
 Name: classes.dex
-SHA-256-Digest: oitPqBB1eq4kIQobPj8YpzVbgxXo7LSp7lwiJrFe0cM=
+SHA-256-Digest: VIuZrh3351f0gQKHks7mAeUK1w9NqgedrYw9NEL+bfI=
 
 Name: lib/armeabi-v7a/libepic.so
 SHA-256-Digest: qWIv/1Tz8ZYrtXJFlAkYcVu18fm2gEfwar+R9WUdIxU=

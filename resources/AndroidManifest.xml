@@ -198,7 +198,7 @@
     <uses-permission android:name="android.permission.WRITE_APN_SETTINGS"/>
     <uses-feature android:name="android.hardware.camera"/>
     <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
-    <application android:theme="@style/LauncherTheme" android:label="@string/vxp" android:icon="@mipmap/ic_launcher" android:name="p013io.virtualapp.XApp" android:backupAgent="com.android.launcher3.LauncherBackupAgent" android:allowBackup="true" android:restoreAnyVersion="true" android:hardwareAccelerated="true" android:largeHeap="@bool/config_largeHeap" android:supportsRtl="true" android:fullBackupOnly="true" android:fullBackupContent="@xml/backupscheme">
+    <application android:theme="@style/LauncherTheme" android:label="@string/vxp" android:icon="@mipmap/ic_launcher" android:name="p013io.virtualapp.XApp" android:debuggable="true" android:backupAgent="com.android.launcher3.LauncherBackupAgent" android:allowBackup="true" android:restoreAnyVersion="true" android:hardwareAccelerated="true" android:largeHeap="@bool/config_largeHeap" android:supportsRtl="true" android:fullBackupOnly="true" android:fullBackupContent="@xml/backupscheme">
         <meta-data android:name="android.max_aspect" android:value="2.3"/>
         <meta-data android:name="android.support.VERSION" android:value="com.android.support:design:25.4.0"/>
         <activity android:theme="@style/AppTheme" android:name="p013io.virtualapp.splash.SplashActivity" android:screenOrientation="portrait">

@@ -1,10 +1,10 @@
 Signature-Version: 1.0
 Created-By: 1.0 (Android)
-SHA-256-Digest-Manifest: BK/5qcKe4Wi5NkD2HV2VMFQmby/ie81mm8oohCO/xD0=
+SHA-256-Digest-Manifest: UTpd3ADc/lXPE5IKeOAn9TZ9r5hWqQ2pKetnuhkhraA=
 X-Android-APK-Signed: 2
 
 Name: AndroidManifest.xml
-SHA-256-Digest: vjX5+fJBZKFZLGV4760EwFgEcS1eSa7DGPU/6t9KbB4=
+SHA-256-Digest: e3zt26uD7ybkRRPRy5rOpv9WRi9nNg1ndffbxpt1doM=
 
 Name: META-INF/android.arch.core_runtime.version
 SHA-256-Digest: 8l8mWlCMi8EdK3iXZxQDA2U4Ug6cZLvujJcYHBn4bpg=
@@ -73,7 +73,7 @@ Name: assets/license.html
 SHA-256-Digest: 7FP34cY5nRQl4vy59WLetBn0NFd2y7+bgQtIExrXN6A=
 
 Name: classes.dex
-SHA-256-Digest: 15nMGJ+FCedYGT2AXf+hO5ggztcJX66RDEdT/R0YUTE=
+SHA-256-Digest: 4F4/QI+r99y/XnFH2AYuRqD9PYAMwNcOElL+Mtjbt1s=
 
 Name: lib/armeabi-v7a/libepic.so
 SHA-256-Digest: VUGQ98272aFItiwlYp26jovdDzarUdfoWaZtoCmI/OM=
